@@ -1,8 +1,8 @@
-# Console Todo App
+# Console Todo App 👾
 
 A simple command-line todo application that manages tasks entirely in memory.
 
-## Features
+## ✨Features
 
 - Add new todo items
 - View all todo items
@@ -10,6 +10,10 @@ A simple command-line todo application that manages tasks entirely in memory.
 - Update todo item descriptions
 - Delete todo items
 - All data stored in memory only (no persistence)
+
+## 🎥 Live Demo
+
+[![Watch Demo](https://img.shields.io/badge/%F0%9F%8E%A5_Watch_Now-9146FF?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1qjc6v6Op5sQH2Jy9ikDNHkJo_W2k74mx/view?usp=sharing)
 
 ## Requirements
 
@@ -89,3 +93,23 @@ The application follows a layered architecture:
 To run the application manually:
 1. Start the application: `python src/cli/main.py`
 2. Test each command as described above
+
+## 🙌 Contributing
+
+I welcome contributions to make this Console Python Todo App even better!  
+
+**📌 Guidelines:**  
+- Follow the existing project structure (`src/models`, `src/services`, `src/cli`, `src/lib`).  
+- Ensure new features or fixes maintain the in-memory architecture.  
+- Keep code clean, modular, and well-commented.  
+- Add examples or test steps if you add new commands or functionality.  
+
+**🐞 Reporting Issues:**  
+- Found a bug or unexpected behavior? Open an issue on GitHub with a clear description and steps to reproduce it.  
+
+**✨ Pull Requests:**  
+- Fork the repository, make your changes, and submit a pull request.  
+- Include a concise description of what you added, fixed, or improved.  
+- Make sure your code passes manual testing for all commands.  
+
+⭐ If you find this project useful, give it a star on GitHub to show your support!
